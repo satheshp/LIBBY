@@ -1,0 +1,28 @@
+
+body {
+    background-color: #f8f9fa;
+  }
+  .login-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+  }
+  .login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .form-control:focus {
+    border-color: #50c878;
+    box-shadow: none;
+  }
+  .btn-login {
+    background-color: #50c878;
+    border-color: #50c878;
+    color: #ffffff;
+  }
+  .btn-login:hover, .btn-login:focus {
+    background-color: #40a767;
+    border-color: #40a767;
+    color: #ffffff;
+  }

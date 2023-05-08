@@ -1,0 +1,11 @@
+#ginger{
+    text-decoration: none;
+    color:white;
+    padding:5px;
+}
+.Search{
+    padding:40px;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
