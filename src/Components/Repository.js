@@ -97,48 +97,7 @@ function Repository() {
       </div>
     </div>
   </nav>
-  {/* <div className='Search'>
-  <div className="form-group">
-          <input
-            type="text"
-            className="form-control "
-            placeholder="Search by Title"
-            value={titleFilter}
-            onChange={handleTitleChange}
-            
-          />
-        </div>
-        <div className="form-group">
-          <input
-            type="text"
-            className="form-control "
-            placeholder="Search by Title"
-            value={AuthorFilter}
-            onChange={handleAuthorChange}
-            
-          />
-        </div>
-        <div className="form-group">
-          <input
-            type="text"
-            className="form-control "
-            placeholder="Search by Title"
-            value={SubjectFilter}
-            onChange={handleSubjectChange}
-            
-          />
-        </div>
-        <div className="form-group">
-          <input
-            type="text"
-            className="form-control "
-            placeholder="Search by Title"
-            value={PublishdateFilter}
-            onChange={handleDateChange}
-            
-          />
-        </div>
-        </div> */}
+  {/* */}
         <BootstrapTable pagination={pagination} filter={filterFactory()} bootstrap4 keyField="id" columns={columns} data={apiData} condensed stripped hover/>
     
     </div>
